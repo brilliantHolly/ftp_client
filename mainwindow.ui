@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>739</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_server_refresh">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>100</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>刷新</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_download">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>150</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下载</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_client_refresh">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>660</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>刷新</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_upload">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>660</y>
+      <width>56</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>上传</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ip">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP地址</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户名</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pwd">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>10</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_ip">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_user">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_pwd">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_log">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>10</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listW_server">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>651</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>12-08-19  12:15PM                61536 bamenwubu.docx</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11-09-19  10:56AM              4803235 Chinese calligraphy.pptx</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>04-03-20  12:52PM              6382003 club live 0410.pdf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12-08-19  02:31PM              4723430 group_presentation.pptx</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12-08-19  11:57AM               104989 like_sunday.docx</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>07-17-20  10:12AM               499963 rain.jpg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>07-17-20  10:12AM                86698 smile.jpg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>07-30-20  09:32PM                    9 helloworld.txt</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QListWidget" name="listW_client">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>271</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>07-30-20  09:32PM                    9 helloworld.txt</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>07-30-20  10:01PM                15736 WHU-helper.docx</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11-09-19  10:56AM              4803235 Chinese calligraphy.pptx</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QListWidget" name="listW_message">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>320</y>
+      <width>401</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>begin to connect the server</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>connect successfully</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>begin to login</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>login successfully</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>refresh server file list</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>226 Transfer complete.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>begin to download 11-09-19  10:56AM              4803235 Chinese calligraphy.pptx </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>download successfully 11-09-19  10:56AM              4803235 Chinese calligraphy.pptx </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>refresh client file list</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>begin to upload 07-30-20  09:32PM                    9 helloworld.txt</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>upload successfully 07-30-20  09:32PM                    9 helloworld.txt</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>refresh server file list</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>776</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
